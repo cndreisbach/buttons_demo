@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>test</title>
+  <script src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript" charset="utf-8">
+    // Load jQuery
+    google.load("jquery", "1");
+  </script>
+  <script type="text/javascript" src="/math.js"></script>
+  
+  <script type="text/javascript">
+    Math.add(1, 2, 3, 4, {
+      success: function (sum) {
+        alert("The sum is " + sum);
+      }
+    });
+  </head>
+  <body>
+  </body>
+</html>
